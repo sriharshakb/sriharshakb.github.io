@@ -56,8 +56,8 @@ h2.section-title{
   background:linear-gradient(120deg,#fff,#c9d3de);
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
-.section-sub{color:var(--muted);font-size:16px;max-width:560px;margin-bottom:30px;line-height:1.6;}
-.section-pad{padding:68px 0;}
+.section-sub{color:var(--muted);font-size:16px;max-width:560px;margin-bottom:20px;line-height:1.6;}
+.section-pad{padding:40px 0;}
 
 /* gradient text util */
 .grad-text{background:var(--gradient);-webkit-background-clip:text;background-clip:text;color:transparent;}
@@ -236,7 +236,7 @@ h2.section-title{
 .badge-row .s{font-size:12.5px;color:var(--muted);}
 
 /* ===== Tabs (shared: experience + skills) ===== */
-.tabbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:36px;}
+.tabbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px;}
 .tabbtn{
   font-family:var(--mono);font-size:13px;padding:10px 16px;border-radius:10px;
   border:1px solid var(--border);background:var(--surface);color:var(--muted);cursor:pointer;
@@ -267,7 +267,7 @@ h2.section-title{
 .jobcard li{color:var(--muted);font-size:15px;line-height:1.65;padding-left:22px;position:relative;}
 .jobcard li::before{content:"›";position:absolute;left:0;color:var(--accent);font-weight:700;}
 
-.mini-list{margin-top:36px;display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.mini-list{margin-top:20px;display:grid;grid-template-columns:1fr 1fr;gap:16px;}
 .mini-card{border:1px solid var(--border);background:var(--surface);border-radius:14px;padding:18px 20px;}
 .mini-card .t{font-size:14px;font-weight:600;}
 .mini-card .r{font-size:13px;color:var(--accent-2);margin:3px 0;}
@@ -347,7 +347,7 @@ h2.section-title{
   .nav-links{display:none;}
   .nav-toggle{display:block;}
   .nav-cta .icon-btn{display:none;}
-  .section-pad{padding:52px 0;}
+  .section-pad{padding:32px 0;}
   .stat-grid{grid-template-columns:1fr 1fr;}
   .skill-grid{grid-template-columns:1fr 1fr;}
   .job-head{flex-direction:column;}
