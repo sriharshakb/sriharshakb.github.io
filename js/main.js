@@ -1,6 +1,17 @@
 // ===== Year =====
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// ===== Dynamic "AGE" for the kubectl-style career table (never goes stale) =====
+document.querySelectorAll('.age[data-start]').forEach(el => {
+  const [y, m] = el.getAttribute('data-start').split('-').map(Number);
+  const now = new Date();
+  let months = (now.getFullYear() - y) * 12 + (now.getMonth() - (m - 1));
+  months = Math.max(months, 0);
+  const yrs = Math.floor(months / 12);
+  const rem = months % 12;
+  el.textContent = yrs > 0 ? `${yrs}y${rem > 0 ? rem + 'mo' : ''}` : `${months}mo`;
+});
+
 // ===== Nav scroll state + active link =====
 const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => {
