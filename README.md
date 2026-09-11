@@ -1,9 +1,9 @@
-# sriharshakb.github.io
+# resume-webpage
 
 Personal portfolio / professional site for Sri Harsha Korukonda Bhattar — Senior Cloud Engineer.
 
 Static site (plain HTML/CSS/JS, no build step, no framework) deployed via GitHub Pages at
-**https://sriharshakb.github.io**.
+**https://sriharshakb.github.io/resume-webpage/**.
 
 ## Structure
 
@@ -27,10 +27,10 @@ npx serve .
 
 ## Deploy
 
-Push to the `main` branch of this repo (must be named `sriharshakb.github.io` for GitHub's
-default user-site hosting, no custom domain required). Enable Pages in the repo settings
+Push to the `main` branch of this repo. Enable Pages in the repo settings
 (Settings → Pages → Source: `main` branch, `/root`) — GitHub serves it at
-https://sriharshakb.github.io automatically, no build action needed.
+https://sriharshakb.github.io/resume-webpage/ automatically, no build action needed,
+no custom domain required.
 
 ## Contact
 
