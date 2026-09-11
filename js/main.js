@@ -192,7 +192,7 @@ function animateCount(el) {
         const dx = a.x - b.x, dy = a.y - b.y;
         const dist = Math.sqrt(dx * dx + dy * dy);
         if (dist < 140) {
-          ctx.strokeStyle = `rgba(129,140,248,${(1 - dist / 140) * 0.18})`;
+          ctx.strokeStyle = `rgba(59,130,246,${(1 - dist / 140) * 0.18})`;
           ctx.lineWidth = 1;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y);
